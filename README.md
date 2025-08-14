@@ -1,16 +1,102 @@
-## Hi there 👋
 
-<!--
-**jmfaheemhasan/jmfaheemhasan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="left">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=36&duration=2000&pause=1500&color=00CFFF&center=true&width=600&lines=Hi+I'm+J+M+FAHIM+HASAN" alt="Typing SVG" />
+</p>
 
-Here are some ideas to get you started:
+<p align="right">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2000&pause=5000&color=FF0000&center=true&width=600&lines=Computer+Science+and+Engineering+Student." alt="Typing SVG" />
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="right">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&center=true&width=435&lines=Aspiring+Developer;Learning+Every+Day;Future+Coder+In+Progress" alt="Typing SVG" />
+</p>
+
+<p align="right">
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmQwMnV2NXRvM2wydGw3MTNrdTNrd3l3dGlzd3IyMWcyYnIxcWpkeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jBOOXxSJfG8kqMxT11/giphy.gif" width="400" height="200" alt="Excited GIF"> 
+</p>
+
+<p align="right">
+  <img src="https://komarev.com/ghpvc/?username=jmfaheemhasan&label=Profile+Views&color=dc143c&style=for-the-badge" alt="JM Fahim Hasan" />
+</p>
+
+---
+
+### 📚 About Me
+
+- 🔭 I’m currently learning Computer Science Fundamentals
+- 🌱 Exploring the tech world, step by step!
+- 💬 Ask me about anything — if I don’t know, I’ll learn it!
+
+---
+
+<!--STATS-START-->
+<p align="right">
+  <img src="https://readme-typing-svg.herokuapp.com?center=true&lines=Tracking+my+progress+daily..." />
+</p>
+
+<p align="right">
+  <img src="https://github-readme-stats.vercel.app/api?username=jmfaheemhasan&show_icons=true&theme=radical&hide_border=true" width="400" />
+</p>
+
+<p align="right">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jmfaheemhasan&layout=compact&theme=radical&hide_border=true" width="300" />
+</p>
+
+<p align="right">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=jmfaheemhasan&theme=radical&hide_border=true" width="400" />
+</p>
+
+<p align="right">
+  <img src="https://github-profile-trophy.vercel.app/?username=jmfaheemhasan&theme=radical&no-frame=true&row=2&column=4" width="400" />
+</p>
+<!--STATS-END-->
+
+---
+
+# ✨ Quote I Like
+> ### "Some you've seen, some I haven't."
+
+---
+
+### 👁‍🗨 “The Beat That Moves Me Most”
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&fontSize=48&duration=5000&pause=1500&color=FF0000&center=true&width=600&lines=Twinkle,+twinkle,+little+star;How+I+wonder+what+you+are!;Up+above+the+world+so+high;Like+a+diamond+in+the+sky.;When+the+blazing+sun+is+gone;When+he+nothing+shines+upon;Then+you+show+your+little+light;Twinkle,+twinkle,+all+the+night." alt="Twinkle Twinkle Poem Typing SVG" />
+</p>
+
+<p align="right">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=5000&pause=2000&color=FF2C2C&center=true&width=700&lines=The+Battle+Of+The+Soul;With+The+Devil" alt="Typing SVG" />
+</p>
+
+---
+
+### ✨ If You Ever Need Me
+
+**If you ever need my support or collaboration, I'm here. Feel free to reach out through any of the platforms below.**
+
+<p align="center">
+  <a href="https://www.instagram.com/fahimhassan311?igsh=MXgwdTlxNDFrcDNmbA==" target="_blank">
+    <img src="https://img.icons8.com/fluency/48/instagram-new.png" alt="Instagram"/>  
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.facebook.com/share/15n5ZoV588/" target="_blank">
+    <img src="https://img.icons8.com/fluency/48/facebook-new.png" alt="Facebook"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://t.me/jmfaheemhasan" target="_blank">
+    <img src="https://img.icons8.com/fluency/48/telegram-app.png" alt="Telegram"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://wa.me/8801893380852" target="_blank">
+    <img src="https://img.icons8.com/fluency/48/whatsapp.png" alt="WhatsApp"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/j-m-fahim-hasan" target="_blank">
+    <img src="https://img.icons8.com/fluency/48/linkedin.png" alt="LinkedIn"/>
+  </a>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Made%20in-Bangladesh-1f425f?style=for-the-badge" />
+</p>
