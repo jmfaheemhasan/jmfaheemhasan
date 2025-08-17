@@ -52,13 +52,12 @@
   <img src="https://github-readme-stats.vercel.app/api?username=jmfaheemhasan&show_icons=true&theme=dracula&hide_border=true&bg_color=90,232526,414345,ff9900&title_color=ffffff&text_color=ffffff&cache_seconds=1800" width="400" />
 </p>
 
-<p align="center" style="margin:0;">
+<div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jmfaheemhasan&layout=compact&theme=dracula&hide_border=true&bg_color=90,232526,414345,ff9900&title_color=ffffff&text_color=ffffff&cache_seconds=1800" width="300" />
-</p>
-
-<p align="center" style="margin:0;">
+  <br/>
   <img src="https://github-readme-streak-stats.herokuapp.com?user=jmfaheemhasan&theme=dracula&hide_border=true&background=90,232526,414345,ff9900&fire=ff7f00&currStreakLabel=ffffff" width="400" />
-</p>
+</div>
+
 
 <p align="center" style="margin:0;">
   <img src="https://github-profile-trophy.vercel.app/?username=jmfaheemhasan&theme=dracula&no-frame=true&row=2&column=4" width="400" />
@@ -111,7 +110,6 @@
 </p>
 
 ---
-
 
 
 
