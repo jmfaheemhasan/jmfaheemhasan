@@ -42,7 +42,8 @@
   <img src="https://readme-typing-svg.herokuapp.com?center=true&lines=Tracking+my+progress+daily..." />
 </p>
 
-<p align="center" style="margin:0;">
+
+ <p align="center" style="margin:0;">
   <img src="https://github-readme-stats.vercel.app/api?username=jmfaheemhasan&show_icons=true&theme=dracula&hide_border=true&bg_color=90,232526,414345,ff9900&title_color=ffffff&text_color=ffffff&cache_seconds=3600" width="400" />
 </p>
 
@@ -56,7 +57,7 @@
  <p align="center" style="margin:0;">
   <img src="https://github-profile-trophy.vercel.app/?username=jmfaheemhasan&theme=dracula&no-frame=true&row=2&column=4" width="400" />
 </p>
- 
+
 
 <!--STATS-END--> 
 
