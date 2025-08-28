@@ -105,3 +105,47 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## 📊 GitHub Stats:
+
+<p align="center">
+  <!-- Stats -->
+  <img src="https://github-readme-stats.vercel.app/api?username=jmfaheemhasan&theme=dark&hide_border=false&include_all_commits=true&count_private=false" height="180px" width="48%"/>
+  
+  <!-- Top Languages -->
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jmfaheemhasan&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact" height="180px" width="48%"/>
+</p>
+
+<p align="center">
+  <!-- Streak -->
+  <img src="https://nirzak-streak-stats.vercel.app/?user=jmfaheemhasan&theme=dark&hide_border=false" height="180px"/>
+</p>
+
+
+
+
+
+
+
+
+
+
