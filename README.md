@@ -42,22 +42,24 @@
   <img src="https://readme-typing-svg.herokuapp.com?center=true&lines=Tracking+my+progress+daily..." />
 </p>
 
-
- <p align="center" style="margin:0;">
-  <img src="https://github-readme-stats.vercel.app/api?username=jmfaheemhasan&show_icons=true&theme=dracula&hide_border=true&bg_color=90,232526,414345,ff9900&title_color=ffffff&text_color=ffffff&cache_seconds=3600" width="400" />
+<p align="center">
+  <!-- Stats -->
+  <img src="https://github-readme-stats.vercel.app/api?username=jmfaheemhasan&theme=dark&hide_border=false&include_all_commits=true&count_private=false" height="180px"/>
 </p>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jmfaheemhasan&layout=compact&theme=dracula&hide_border=true&bg_color=90,232526,414345,ff9900&title_color=ffffff&text_color=ffffff&cache_seconds=3600" width="300" />
-  <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=jmfaheemhasan&theme=dracula&hide_border=true&background=90,232526,414345,ff9900&fire=ff7f00&currStreakLabel=ffffff" width="400" />
-</div>
-
-
- <p align="center" style="margin:0;">
-  <img src="https://github-profile-trophy.vercel.app/?username=jmfaheemhasan&theme=dracula&no-frame=true&row=2&column=4" width="400" />
+<p align="center">
+  <!-- Top Languages (center) -->
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jmfaheemhasan&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact" height="180px"/>
 </p>
 
+<p align="center">
+  <!-- Streak -->
+  <img src="https://nirzak-streak-stats.vercel.app/?user=jmfaheemhasan&theme=dark&hide_border=false" height="180px"/>
+</p>
+
+<p align="center">
+  <img src="https://github-contributor-stats.vercel.app/api?username=jmfaheemhasan&limit=5&theme=dark&combine_all_yearly_contributions=true"/>
+</p>
 
 <!--STATS-END--> 
 
@@ -113,32 +115,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-## 📊 GitHub Stats:
-
-<p align="center">
-  <!-- Stats -->
-  <img src="https://github-readme-stats.vercel.app/api?username=jmfaheemhasan&theme=dark&hide_border=false&include_all_commits=true&count_private=false" height="180px" width="48%"/>
-  
-  <!-- Top Languages -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jmfaheemhasan&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact" height="180px" width="48%"/>
-</p>
-
-<p align="center">
-  <!-- Streak -->
-  <img src="https://nirzak-streak-stats.vercel.app/?user=jmfaheemhasan&theme=dark&hide_border=false" height="180px"/>
-</p>
 
 
 
