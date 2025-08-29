@@ -42,17 +42,27 @@
   <img src="https://readme-typing-svg.herokuapp.com?center=true&lines=Tracking+my+progress+daily..." />
 </p>
 
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jmfaheemhasan&theme=discord_old_blurple&hide_border=false&include_all_commits=false&count_private=false" height="180px"/>
+  <!-- GitHub Stats -->
+  <img src="assets/github-stats.svg" height="180px"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jmfaheemhasan&theme=discord_old_blurple&hide_border=false&include_all_commits=false&count_private=false&layout=compact" height="180px"/>
+  <!-- Top Languages -->
+  <img src="assets/top-langs.svg" height="180px"/>
 </p>
 
 <p align="center">
-  <img src="https://nirzak-streak-stats.vercel.app/?user=jmfaheemhasan&theme=discord_old_blurple&hide_border=false" height="180px"/>
+  <!-- GitHub Streak -->
+  <img src="assets/streak-stats.svg" height="180px"/>
 </p>
+
+<p align="center">
+  <!-- Trophy -->
+  <img src="assets/trophy.svg" height="180px"/>
+</p>
+
 
 <p align="center">
   <img src="https://github-contributor-stats.vercel.app/api?username=jmfaheemhasan&limit=5&theme=dark&combine_all_yearly_contributions=true" height="180px"/>
@@ -106,8 +116,6 @@
     <img src="https://img.icons8.com/fluency/48/linkedin.png" alt="LinkedIn"/>
   </a>
 </p>
-
-
 
 
 
