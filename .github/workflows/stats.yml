@@ -1,9 +1,14 @@
 name: 📊 Auto-update GitHub Profile Stats
 
+
+
 on:
+  workflow_dispatch:
   schedule:
-    - cron: "0 */12 * * *" # প্রতি 12 ঘন্টা পর রান করবে
-  workflow_dispatch: # চাইলে ম্যানুয়ালি চালাতে পারবে
+    - cron: "0 0 * * *" # প্রতিদিন রাত 12টায় auto রান হবে
+
+permissions:
+  contents: write # ✅ Push করার অনুমতি
 
 jobs:
   build:
@@ -13,18 +18,21 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Generate Stats Images
+      - name: Generate Stats images
         run: |
           mkdir -p assets
-          curl -o assets/stats.svg "https://github-readme-stats.vercel.app/api?username=${GITHUB_ACTOR}&show_icons=true&theme=radical"
-          curl -o assets/streak.svg "https://streak-stats.demolab.com/?user=${GITHUB_ACTOR}&theme=radical"
-          curl -o assets/langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=${GITHUB_ACTOR}&layout=compact&theme=radical"
-          curl -o assets/trophy.svg "https://github-profile-trophy.vercel.app/?username=${GITHUB_ACTOR}&theme=onedark"
+          curl -o assets/github-stats.svg "https://github-readme-stats.vercel.app/api?username=jmfahimhasan&show_icons=true&theme=radical"
+          curl -o assets/streak-stats.svg "https://streak-stats.demolab.com?user=jmfahimhasan&theme=radical"
+          curl -o assets/top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=jmfahimhasan&layout=compact&theme=radical"
+          curl -o assets/trophy.svg "https://github-profile-trophy.vercel.app/?username=jmfahimhasan&theme=radical&column=7"
 
       - name: Commit & Push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/*
+
+          git add assets/
           git commit -m "Update GitHub stats [skip ci]" || echo "No changes to commit"
+
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git push
