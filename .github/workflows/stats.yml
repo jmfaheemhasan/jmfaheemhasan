@@ -2,8 +2,6 @@ name: 📊 Auto-update GitHub Profile Stats
 
 
 
-name: Update GitHub Stats
-
 on:
   workflow_dispatch:
   schedule:
