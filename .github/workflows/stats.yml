@@ -1,0 +1,30 @@
+name: 📊 Auto-update GitHub Profile Stats
+
+on:
+  schedule:
+    - cron: "0 */12 * * *" # প্রতি 12 ঘন্টা পর রান করবে
+  workflow_dispatch: # চাইলে ম্যানুয়ালি চালাতে পারবে
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Generate Stats Images
+        run: |
+          mkdir -p assets
+          curl -o assets/stats.svg "https://github-readme-stats.vercel.app/api?username=${GITHUB_ACTOR}&show_icons=true&theme=radical"
+          curl -o assets/streak.svg "https://streak-stats.demolab.com/?user=${GITHUB_ACTOR}&theme=radical"
+          curl -o assets/langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=${GITHUB_ACTOR}&layout=compact&theme=radical"
+          curl -o assets/trophy.svg "https://github-profile-trophy.vercel.app/?username=${GITHUB_ACTOR}&theme=onedark"
+
+      - name: Commit & Push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/*
+          git commit -m "Update GitHub stats [skip ci]" || echo "No changes to commit"
+          git push
