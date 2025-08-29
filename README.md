@@ -116,5 +116,12 @@
 
 
 
+## 📊 My GitHub Dashboard
 
+<p align="center">
+  <img src="assets/stats.svg" alt="Stats" />
+  <img src="assets/streak.svg" alt="Streak" />
+  <img src="assets/langs.svg" alt="Top Languages" />
+  <img src="assets/trophy.svg" alt="Trophy" />
+</p>
 
