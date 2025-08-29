@@ -1,9 +1,9 @@
- Update GitHub Stats
+name: 👽 Update GitHub Stats
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *" # প্রতিদিন রাত 12টায় auto রান হবে
+    - cron: "0 0 * * *" # প্রতিদিন রাত 12টায় auto রান হবে (UTC টাইম)
 
 permissions:
   contents: write # push করার অনুমতি
@@ -27,7 +27,7 @@ jobs:
           curl -o assets/github-stats.svg "https://github-readme-stats.vercel.app/api?username=jmfaheemhasan&show_icons=true&theme=radical"
           # Top Languages
           curl -o assets/top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=jmfaheemhasan&layout=compact&theme=radical"
-          # GitHub Streak ✅ (official)
+          # GitHub Streak ✅
           curl -o assets/streak-stats.svg "https://streak-stats.demolab.com?user=jmfaheemhasan&theme=radical"
           # Trophy
           curl -o assets/trophy.svg "https://github-profile-trophy.vercel.app/?username=jmfaheemhasan&theme=radical&column=7"
@@ -42,3 +42,4 @@ jobs:
           git add assets/
           git commit -m "Update GitHub stats [skip ci]" || echo "No changes to commit"
           git push https://x-access-token:$GITHUB_TOKEN@github.com/${{ github.repository }} HEAD:main
+
