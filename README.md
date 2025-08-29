@@ -58,10 +58,7 @@
   <img src="assets/streak-stats.svg" height="180px"/>
 </p>
 
-<p align="center">
-  <!-- Trophy -->
-  <img src="assets/trophy.svg" height="180px"/>
-</p>
+
 
 
 <p align="center">
