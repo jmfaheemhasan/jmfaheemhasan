@@ -1,4 +1,4 @@
-Name: Update GitHub Stats
+ Update GitHub Stats
 
 on:
   workflow_dispatch:
