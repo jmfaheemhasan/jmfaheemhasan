@@ -2,31 +2,44 @@ name: 📊 Auto-update GitHub Profile Stats
 
 
 
+name: Update GitHub Stats
+
 on:
   workflow_dispatch:
   schedule:
     - cron: "0 0 * * *" # প্রতিদিন রাত 12টায় auto রান হবে
 
 permissions:
-  contents: write # ✅ Push করার অনুমতি
+  contents: write # push করার অনুমতি
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
+      # Checkout repo
       - name: Checkout repo
         uses: actions/checkout@v3
+        with:
+          persist-credentials: false
 
+      # Generate Stats Images
       - name: Generate Stats images
         run: |
           mkdir -p assets
-          curl -o assets/github-stats.svg "https://github-readme-stats.vercel.app/api?username=jmfahimhasan&show_icons=true&theme=radical"
-          curl -o assets/streak-stats.svg "https://streak-stats.demolab.com?user=jmfahimhasan&theme=radical"
-          curl -o assets/top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=jmfahimhasan&layout=compact&theme=radical"
-          curl -o assets/trophy.svg "https://github-profile-trophy.vercel.app/?username=jmfahimhasan&theme=radical&column=7"
+          # GitHub Stats
+          curl -o assets/github-stats.svg "https://github-readme-stats.vercel.app/api?username=jmfaheemhasan&show_icons=true&theme=radical"
+          # Top Languages
+          curl -o assets/top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=jmfaheemhasan&layout=compact&theme=radical"
+          # GitHub Streak (public-only)
+          curl -o assets/streak-stats.svg "https://nirzak-streak-stats.vercel.app/?user=jmfaheemhasan&theme=radical"
+          # Trophy
+          curl -o assets/trophy.svg "https://github-profile-trophy.vercel.app/?username=jmfaheemhasan&theme=radical&column=7"
 
+      # Commit & Push changes
       - name: Commit & Push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -34,5 +47,4 @@ jobs:
           git add assets/
           git commit -m "Update GitHub stats [skip ci]" || echo "No changes to commit"
 
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-          git push
+          git push https://x-access-token:$GITHUB_TOKEN@github.com/${{ github.repository }} HEAD:main
