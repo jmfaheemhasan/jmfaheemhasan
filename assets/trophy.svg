@@ -1,8 +1,8 @@
 
     <svg
-      width="220"
-      height="440"
-      viewBox="0 0 220 440"
+      width="440"
+      height="220"
+      viewBox="0 0 440 220"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -168,8 +168,8 @@
         </svg>
         
         <svg
-          x="0"
-          y="110"
+          x="220"
+          y="0"
           width="110"
           height="110"
           viewBox="0 0 110 110"
@@ -248,8 +248,8 @@
         </svg>
         
         <svg
-          x="110"
-          y="110"
+          x="330"
+          y="0"
           width="110"
           height="110"
           viewBox="0 0 110 110"
@@ -329,7 +329,7 @@
         
         <svg
           x="0"
-          y="220"
+          y="110"
           width="110"
           height="110"
           viewBox="0 0 110 110"
@@ -409,7 +409,7 @@
         
         <svg
           x="110"
-          y="220"
+          y="110"
           width="110"
           height="110"
           viewBox="0 0 110 110"
@@ -488,8 +488,8 @@
         </svg>
         
         <svg
-          x="0"
-          y="330"
+          x="220"
+          y="110"
           width="110"
           height="110"
           viewBox="0 0 110 110"
@@ -568,8 +568,8 @@
         </svg>
         
         <svg
-          x="110"
-          y="330"
+          x="330"
+          y="110"
           width="110"
           height="110"
           viewBox="0 0 110 110"
