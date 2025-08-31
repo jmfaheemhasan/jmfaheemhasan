@@ -60,6 +60,11 @@
 
 
 
+<p align="center">
+   <!-- trophy -->
+  <img src="assets/trophy.svg" alt="GitHub Trophies" />
+</p>
+
 
 <p align="center">
   <img src="https://github-contributor-stats.vercel.app/api?username=jmfaheemhasan&limit=5&theme=dark&combine_all_yearly_contributions=true" height="180px"/>
@@ -68,7 +73,7 @@
 
 
 
-![Trophy](assets/trophy.svg)
+
 
 <!--STATS-END--> 
 
