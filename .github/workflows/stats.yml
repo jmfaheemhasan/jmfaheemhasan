@@ -32,7 +32,7 @@ jobs:
           # GitHub Streak ✅
           curl -o assets/streak-stats.svg "https://streak-stats.demolab.com?user=jmfaheemhasan&theme=radical"
           # Trophy
-         curl -o assets/trophy.svg "https://github-profile-trophy.vercel.app/?username=jmfaheemhasan&theme=radical&column=2&row=4"
+          curl -o assets/trophy.svg "https://github-profile-trophy.vercel.app/?username=jmfaheemhasan&theme=radical&column=2&row=4"
 
       # Commit & Push changes
       - name: Commit & Push changes
