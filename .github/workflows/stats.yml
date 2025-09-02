@@ -33,6 +33,8 @@ jobs:
           curl -o assets/streak-stats.svg "https://streak-stats.demolab.com?user=jmfaheemhasan&theme=radical"
           # Trophy
           curl -o assets/trophy.svg "https://github-profile-trophy.vercel.app/?username=jmfaheemhasan&theme=radical&column=4&row=2"
+          # Contributor Stats
+          curl -o assets/contributor-stats.svg "https://github-contributor-stats.vercel.app/api?username=jmfaheemhasan&limit=5&theme=dark&combine_all_yearly_contributions=true"
 
       # Commit & Push changes
       - name: Commit & Push changes
