@@ -66,6 +66,7 @@
 </p>
 
 <p align="center">
+  <!-- top contribute repo -->
   <img src="assets/contributor-stats.svg" alt="Contributor Stats" height="180px"/>
 </p>
 
@@ -124,10 +125,4 @@
 
 
 
-
-<p align="center">
-  <a href="https://github.com/jmfaheemhasan">
-    <img src="assets/contributor-stats.svg" height="180px" alt="GitHub Contributor Stats"/>
-  </a>
-</p>
 
