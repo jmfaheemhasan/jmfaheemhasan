@@ -124,9 +124,10 @@
 
 
 
+
 <p align="center">
   <a href="https://github.com/jmfaheemhasan">
-    <img src="https://github-contributor-stats.vercel.app/api?username=jmfaheemhasan&limit=5&theme=dark&combine_all_yearly_contributions=true" height="180px"/>
+    <img src="assets/contributor-stats.svg" height="180px" alt="GitHub Contributor Stats"/>
   </a>
 </p>
 
